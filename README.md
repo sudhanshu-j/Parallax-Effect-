@@ -3,4 +3,4 @@ Created Parallax Effect  webpage using HTML and CSS
 
 Parallax scrolling is a web site trend where the background content (i.e. an image) is moved at a different speed than the foreground content while scrolling. Click on the links below to see the difference between a website with and without parallax scrolling.
 
-Use a container element and add a background image to the container with a specific height. Then use the background-attachment: fixed to create the actual parallax effect
+Use a container element and add a background image to the container with a specific height. Then use this tag --> ( background-attachment: "fixed"; ) to create the actual parallax effect

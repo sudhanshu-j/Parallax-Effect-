@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-size: 1rem;
+  font-weight: 1.8rem;
+  color: #666;
+  user-select: none;
+  scroll-behavior: smooth;
+  background-color: #dddbd9db;
+  font-family: "Roboto Mono", monospace;
+}
+
+.img-1 {
+  background-image: url("https://source.unsplash.com/1600x900/?mountains");
+  min-height: 100%;
+}
+
+.img-2 {
+  background-image: url("https://source.unsplash.com/1600x900/?india");
+}
+
+.img-3 {
+  background-image: url("https://source.unsplash.com/1600x900/?Foods");
+}
+
+.img-4 {
+  background-image: url("https://source.unsplash.com/1600x900/?Clouds");
+}
+
+.img-5 {
+  background-image: url("https://source.unsplash.com/1600x900/?Cities");
+}
+
+.img-6 {
+  background-image: url("https://source.unsplash.com/1600x900/?natures");
+}
+
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6 {
+  min-height: 450px;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.7rem;
+  text-transform: uppercase;
+}
+
+.text-bg {
+  background-color: #9c98988e;
+  color: #e3e0e0f2;
+  padding: 1.5rem 3rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.section {
+  padding: 1rem 5rem;
+  text-align: center;
+}
+
+.section-body {
+  background-color: #dddbd9db;
+  color: #514f4fd0;
+}
+
+.section-body-2,
+.section-body-3,
+.section-body-4,
+.section-body-5,
+.section-body-6 {
+  background-color: #005f73;
+  color: #cdcdcdc9;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 800px) {
+  .text-bg {
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    padding: 1rem 2rem;
+  }
+
+  .section-body {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4,
+  .img-5,
+  .img-6 {
+    min-height: 250px;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .text-bg {
+    font-size: 0.7rem;
+    letter-spacing: 0rem;
+    padding: 0.7rem 1.4rem;
+  }
+
+  .section-body {
+    font-size: 0.7rem;
+  }
+  p {
+    font-size: 0.7rem;
+  }
+
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4,
+  .img-5,
+  .img-6 {
+    min-height: 250px;
+  }
+  h2 {
+    font-size: 0.8rem;
+  }
+}
